@@ -167,18 +167,40 @@ Also configure the images:
 }
 ```
 Now the top 20 news headlines fetched and loaded successfully:<br/> 
-
-
-
-
-
-
-
-
-
-
-
-
+[news headlines fetched.PNG](https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/news%20headlines%20fetched.png)<br/>
+Fetch images by downloading the urls:
+```Swift 
+ //fetch
+ URLSession.shared.dataTask(with: url) { [weak self] data, _, error in
+guard let data = data, error == nil else {
+                   return
+                }
+                viewModel.imageData = data
+                DispatchQueue.main.async {
+                    self?.newsImageView.image = UIImage(data: data)
+                }
+}.resume()
+```
+Now news headlines, details and images along are properly aligned:<br/>
+[news details and images are properly aligned.PNG](https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/news%20details%20and%20images%20are%20properly%20aligned.png)<br/>
+Import Safari Service:<br/>
+```Swift 
+import SafariServices
+```
+Make Safari service presented:
+```Swift 
+ func tableView(_ tableView: UITableView, didSelectRowAt indexPath:
+IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        let article = articles[indexPath.row)
+        guard let url = URL(string: article.url ?? "") else {
+return }
+        let vc = SFSafariViewController(url: url)
+        present(vc, animated: true)
+    }
+```
+Now all the visible news are clickable and will redirect us to its safari viewing page:<br/>
+[redirected to safari viewer.PNG](https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/redirected%20to%20safari%20viewer.png)
 
 # Debugging&Troubleshooting
 - ERROR: Title not showing in Xcode simulator. DEBUGGING: In `Main.storyboard`,
@@ -192,11 +214,14 @@ navigationBar=<UINavigationBar: 0x7f7e5d80ae60; frame = (0 47; 0 50);
 opaque = NO; autoresize = W; layer = <CALayer: 0x600002ab6f80>>
 delegate=0x7f7e5a00d400` DEBUGGING: iOS 16 incompatibility error. Try downloading Simulator packages <= iOS 15.5. 
  
+ # Testing Results
+ [news headlines fetched.PNG](https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/news%20headlines%20fetched.png)<br/>
+ [news details and images are properly aligned.PNG](https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/news%20details%20and%20images%20are%20properly%20aligned.png)<br/>
+ [redirected to safari viewer.PNG](https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/redirected%20to%20safari%20viewer.png)
+
+
+
  
- 
- 
- 
- # Testing Results 
  
  
  
