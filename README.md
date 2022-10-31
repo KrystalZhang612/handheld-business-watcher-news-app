@@ -12,6 +12,7 @@ A neat-designed iOS Newsfeed application which contains richful most-recent news
         <img src = "https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/Handheld%20Business%20Watcher%20News%20App%20overview2.png" width = "380" height ="841.8181"/> 
         <img src = "https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/Handheld%20Business%20Watcher%20News%20App%20overview3.png" width = "380" height ="841.8181"/>&nbsp;
         <img src = "https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/Handheld%20Business%20Watcher%20News%20App%20overview4.png" width = "380" height ="841.8181"/>
-        
+        <img src = "https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/Handheld%20Business%20Watcher%20News%20App%20overview5.png" width = "380" height ="841.8181"/>&nbsp;
+        <img src ="https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/Handheld%20Business%20Watcher%20News%20App%20overview%206.png" width = "380" height ="841.8181"/>       
 </p> 
 
