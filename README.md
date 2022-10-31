@@ -57,6 +57,26 @@ Best testing simulator version to avoid errors: `iPhone12 Pro Max iOS 14.4`<br/>
 </div>
 
 # Prerequisites & Setups
+Obtain an API url from newsapi.org for the most-recent TechCrunch news.<br/> 
+Create a new object to call APIs [APICaller.swift](https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/Handheld-Business-Watcher-News-App/APICaller.swift):<br/>
+Handle potential errors with completion method, resume task:
+```Swift
+  public func getTopStories(completion: @escaping{
+...
+    from: data)
+            }
+task.resume()
+...
+if let error = error{
+    completion(.failure(error))
+}
+else if let data = data {
+    do {
+        let result = try JSONDecoder().decode(String.self,
+} catch {
+        completion(.failure(error))
+    }
+```
 
 
 
