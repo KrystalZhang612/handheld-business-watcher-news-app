@@ -18,7 +18,7 @@ A neat-designed iOS Newsfeed application which contains richful most-recent news
 
 # Build
 
-[Method to Run & Test the Project Locally]()<br/>
+[Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/README.md#method-to-run--test-the-project-locally)<br/>
 [Prerequisites & Setups]()<br/> 
 [Debugging&Troubleshooting]()<br/> 
 [Synchronous Developing Notes]()<br/> 
@@ -36,6 +36,11 @@ A neat-designed iOS Newsfeed application which contains richful most-recent news
 | macOS Monterey   | ✅                 |
 
 # Method to Run & Test the Project Locally
+### Download the entire project to local directory
+### Xcode must be 13.4 and higher versions with all Xcode dependencies updated.
+### Compatible with iOS 10-iOS 15.5 
+### Not compatiable with iOS 16+
+### Run the project, choose Simulator iPhonw 12 Pro Max iOS 14.4 for best compatiability.
 
 
 
