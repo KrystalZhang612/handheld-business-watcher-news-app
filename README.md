@@ -38,9 +38,9 @@ A neat-designed iOS Newsfeed application which contains richful most-recent news
 # Method to Run & Test the Project Locally
 ### Download the entire project to local directory
 ### Xcode must be 13.4 and higher versions with all Xcode dependencies updated.
-### Compatible with iOS 10-iOS 15.5 
-### Not compatiable with iOS 16+
-### Run the project, choose Simulator iPhonw 12 Pro Max iOS 14.4 for best compatiability.
+### Compatible with `iOS 10-iOS 15.5` 
+### Not compatiable with `iOS 16+`
+### Run the project, choose Simulator `iPhone 12 Pro Max iOS 14.4` for best compatiability.
 
 
 
