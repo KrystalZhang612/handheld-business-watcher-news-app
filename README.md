@@ -35,8 +35,7 @@ A neat-designed iOS Newsfeed application which contains richful most-recent news
 | macOS Mojave     | ✅                 |
 | macOS Monterey   | ✅                 |
 
-
-
+# Method to Run & Test the Project Locally
 
 
 
