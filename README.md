@@ -61,12 +61,9 @@ Obtain an API url from newsapi.org for the most-recent TechCrunch news.<br/>
 Create a new object to call APIs [APICaller.swift](https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/Handheld-Business-Watcher-News-App/APICaller.swift):<br/>
 Handle potential errors with completion method, resume task:
 ```Swift
-  public func getTopStories(completion: @escaping{
+  public func getTopStories(completion: @escaping{ from: data) {
 ...
-    from: data)
-            }
-task.resume()
-...
+  
 if let error = error{
     completion(.failure(error))
 }
@@ -76,6 +73,7 @@ else if let data = data {
 } catch {
         completion(.failure(error))
     }
+   task.resume() 
 ```
 
 
