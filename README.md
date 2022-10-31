@@ -93,6 +93,63 @@ struct Source: Codable {
 ```
 # Synchronous Developing Notes
 
+## ***Table View:***
+```Swift 
+ func tableView (_ tableView: UITableView, numberOfRowsInSection
+section: Int)-> Int {
+return 0 }
+    func tableView (_ tableView: UITableView, cellForRowAt indexPath:
+IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(
+            withIdentifier: "cell",
+            for: indexPath
+        )
+        cell.textLabel?.text = "Something"
+        return cell
+}
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath:
+IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
+```
+Also create a frame for table view:
+```Swift 
+ override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        tableView.frame = view.bounds
+}
+```
+Create a new Cocoa Touch file [NewsTableViewCell.swift](https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/Handheld-Business-Watcher-News-App/NewsTableViewCell.swift):
+```Swift 
+ class NewsTableViewCell: UITableViewCell {
+    static let identifier = "NewsTableViewCell"
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier:
+String?){
+        super.init(style: style, reuseIdentifier: reuseIdentifier)
+    }
+    required init?(coder: NSCoder){
+        fatalError()
+    }
+    override func layoutSubviews(){
+            super.layoutSubviews()
+    }
+    override func prepareForReuse(){
+        super.prepareForReuse()
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
