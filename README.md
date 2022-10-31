@@ -91,6 +91,7 @@ struct Article: Codable {
 struct Source: Codable {
     let name: String }
 ```
+# Synchronous Developing Notes
 
 
 
