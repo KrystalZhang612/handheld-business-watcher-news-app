@@ -55,7 +55,7 @@ Best testing simulator version to avoid errors: `iPhone12 Pro Max iOS 14.4`<br/>
         <img src = "https://github.com/KrystalZhang612/KrystalZhang-RepliFlix/blob/main/swift%20ui%20symbol%20logo.png" title = "SwiftUI" alt= "SwiftUI" width = "60" height= "60"/>&nbsp; 
         <img src = "https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/news%20api%20logo.png" title = "NewsAPI" alt = "NewsAPI" width = "210" height = "60"/>&nbsp; 
 </div>
-
+# Prerequisites & Setups
 
 
 
