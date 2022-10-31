@@ -51,6 +51,9 @@ Best testing simulator version to avoid errors: `iPhone12 Pro Max iOS 14.4`<br/>
 `Note: Xcode project renaming rule: change info.plist File in Build Settings.`<br/>
 <div>
         <img src ="https://github.com/devicons/devicon/blob/master/icons/xcode/xcode-plain.svg" title="Xcode" alt ="Xcode" width = "60" height= "60"/>&nbsp; 
+        <img src = "https://github.com/devicons/devicon/blob/master/icons/swift/swift-original.svg" title = "Swift 5" alt = "Swift 5" width = "60" height= "60"/>&nbsp; 
+        <img src = "https://github.com/KrystalZhang612/KrystalZhang-RepliFlix/blob/main/swift%20ui%20symbol%20logo.png" title = "SwiftUI" alt= "SwiftUI" width = "60" height= "60"/>&nbsp; 
+        <img src = "https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/news%20api%20logo.png" title = "NewsAPI" alt = "NewsAPI" width = "210" height = "60"/>&nbsp; 
 </div>
 
 
