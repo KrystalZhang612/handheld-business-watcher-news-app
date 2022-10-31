@@ -20,7 +20,7 @@ A neat-designed iOS Newsfeed application which contains richful most-recent news
 
 [Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/README.md#method-to-run--test-the-project-locally)<br/>
 [Prerequisites & Setups](https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/README.md#prerequisites--setups)<br/> 
-[Debugging&Troubleshooting]()<br/> 
+[Debugging&Troubleshooting](https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/README.md#debuggingtroubleshooting)<br/> 
 [Synchronous Developing Notes]()<br/> 
 [Testing Result]()<br/> 
 
