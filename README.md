@@ -27,6 +27,15 @@ A neat-designed iOS Newsfeed application which contains richful most-recent news
 # Contribution
 [Author]()
 
+# Compatibility
+|   OS             | Supported          |
+| -------          | ------------------ |
+| iOS 10-iOS 15.5  | :white_check_mark: |
+| iOS 16+          | :x:                |
+| macOS Mojave     | ✅                 |
+| macOS Monterey   | ✅                 |
+
+
 
 
 
