@@ -22,7 +22,7 @@ A neat-designed iOS Newsfeed application which contains richful most-recent news
 [Prerequisites & Setups](https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/README.md#prerequisites--setups)<br/> 
 [Debugging&Troubleshooting](https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/README.md#debuggingtroubleshooting)<br/> 
 [Synchronous Developing Notes](https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/README.md#synchronous-developing-notes)<br/> 
-[Testing Result]()<br/> 
+[Testing Result](https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/README.md#testing-results)<br/> 
 
 # Contribution
 [Author]()
