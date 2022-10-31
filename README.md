@@ -138,8 +138,35 @@ String?){
 }
 ```
 
-
-
+Configure the cell with viewModel:<br/>
+Create viewModel first:
+```Swift 
+ class NewsTableViewCellViewModel {
+    let title: String
+    let subtitle: String
+    let imageURL: URL?
+    let imageData: Data? = nil
+    init(
+        title: String,
+        subtitle: String,
+        imageURL: URL?
+){
+self.title = title self.subtitle = subtitle self.imageURL = imageURL
+}
+```
+Then add viewModel configuration:
+```Swift 
+ func configure(with viewModel: NewsTableViewCellViewModel){
+        newsTitleLabel.text = viewModel.title
+        subtitleLabel.text = viewModel.subtitle
+```
+Also configure the images:
+```Swift 
+ if let data = viewModel.imageData {
+            newsImageView.image = UIImage(data: data)
+}
+```
+Now the top 20 news headlines fetched and loaded successfully:<br/> 
 
 
 
