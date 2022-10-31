@@ -14,7 +14,6 @@ import SafariServices
 //Open the News Story
 //Search for News Stories
 
-
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     private let tableView: UITableView = {
