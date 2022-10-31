@@ -47,7 +47,6 @@ struct APIResponse: Codable {
     
 }
 
-
 struct Article: Codable {
     let source: Source
     let title: String
@@ -62,15 +61,3 @@ struct Source: Codable {
     let name: String
     
 }
-
-
-
-
-    
-    
-    
-    
-    
-    
-    
-
