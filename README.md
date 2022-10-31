@@ -43,5 +43,24 @@ A neat-designed iOS Newsfeed application which contains richful most-recent news
 ### Run the project, choose Simulator `iPhone 12 Pro Max iOS 14.4` for best compatiability.
 
 # 🛠️ Developing Languages, Tools, and Techniques Needed
+[Xcode 13.4.1 iOS 10-15.5 (iOS 16 causes Assertion Errors)](https://developer.apple.com/documentation/xcode-release-notes/xcode-13_4_1-release-notes)<br/>
+Best testing simulator version to avoid errors: `iPhone12 Pro Max iOS 14.4`<br/>
+[News API](https://newsapi.org/docs/get-started#search)<br/> 
+[SwiftUI](https://developer.apple.com/xcode/swiftui/)<br/> 
+[SafariServices Documentation](https://developer.apple.com/documentation/safariservices Swift 5 https://developer.apple.com/swift/)<br/>
+`Note: Xcode project renaming rule: change info.plist File in Build Settings.`<br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
