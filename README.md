@@ -42,5 +42,6 @@ A neat-designed iOS Newsfeed application which contains richful most-recent news
 ### Not compatiable with `iOS 16+`
 ### Run the project, choose Simulator `iPhone 12 Pro Max iOS 14.4` for best compatiability.
 
+# 🛠️ Developing Languages, Tools, and Techniques Needed
 
 
