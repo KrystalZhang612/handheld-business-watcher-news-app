@@ -95,9 +95,24 @@ struct Source: Codable {
 
 
 
-
-
-
-
-
+# Debugging&Troubleshooting
+- ERROR: Title not showing in Xcode simulator. DEBUGGING: In `Main.storyboard`,
+ `Editor-> Embed in -> Navigation Controller`.
+- Fatal Error:
+Error Message: `[Assert] UINavigationBar decoded as unlocked for
+UINavigationController, or navigationBar delegate set up incorrectly.
+Inconsistent configuration may cause problems.
+navigationController=<UINavigationController: 0x7f7e5a00d400>,
+navigationBar=<UINavigationBar: 0x7f7e5d80ae60; frame = (0 47; 0 50);
+opaque = NO; autoresize = W; layer = <CALayer: 0x600002ab6f80>>
+delegate=0x7f7e5a00d400` DEBUGGING: iOS 16 incompatibility error. Try downloading Simulator packages <= iOS 15.5. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
