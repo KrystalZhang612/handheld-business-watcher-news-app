@@ -49,10 +49,9 @@ Best testing simulator version to avoid errors: `iPhone12 Pro Max iOS 14.4`<br/>
 [SwiftUI](https://developer.apple.com/xcode/swiftui/)<br/> 
 [SafariServices Documentation](https://developer.apple.com/documentation/safariservices Swift 5 https://developer.apple.com/swift/)<br/>
 `Note: Xcode project renaming rule: change info.plist File in Build Settings.`<br/>
-
-
-
-
+<div>
+        <img src ="https://github.com/devicons/devicon/blob/master/icons/xcode/xcode-plain.svg" title="Xcode" alt ="Xcode" width = "60" height= "60"/>&nbsp; 
+</div>
 
 
 
