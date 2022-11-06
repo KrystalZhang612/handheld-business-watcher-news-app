@@ -23,6 +23,7 @@ A neat-designed iOS Newsfeed application which contains richful most-recent news
 [Debugging&Troubleshooting](https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/README.md#debuggingtroubleshooting)<br/> 
 [Synchronous Developing Notes](https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/README.md#synchronous-developing-notes)<br/> 
 [Testing Result](https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/README.md#testing-results)<br/> 
+[Tags and Topics]() 
 
 # Contribution
 [Author](https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/README.md#author)
@@ -219,6 +220,8 @@ delegate=0x7f7e5a00d400` DEBUGGING: iOS 16 incompatibility error. Try downloadin
  [news details and images are properly aligned.PNG](https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/news%20details%20and%20images%20are%20properly%20aligned.png)<br/>
  [redirected to safari viewer.PNG](https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/redirected%20to%20safari%20viewer.png)
 
+# Tags and Topics 
+api, swift, xcode, cgrect, safari-services, swoftui, swift5, newsapi-org, uikit. 
 # Author
 Krystal Zhang 
 https://github.com/KrystalZhang612<hr>
