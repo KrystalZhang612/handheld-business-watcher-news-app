@@ -166,7 +166,7 @@ Also configure the images:
 }
 ```
 Now the top 20 news headlines fetched and loaded successfully:<br/> 
-[news headlines fetched.PNG](https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/news%20headlines%20fetched.png)<br/>
+[news headlines fetched.PNG](https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/testing-result-Handheld-Business-Watcher-News-App/news%20headlines%20fetched.PNG)<br/>
 Fetch images by downloading the urls:
 ```Swift 
  //fetch
@@ -181,7 +181,7 @@ guard let data = data, error == nil else {
 }.resume()
 ```
 Now news headlines, details and images along are properly aligned:<br/>
-[news details and images are properly aligned.PNG](https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/news%20details%20and%20images%20are%20properly%20aligned.png)<br/>
+[news details and images are properly aligned.PNG](https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/testing-result-Handheld-Business-Watcher-News-App/news%20details%20and%20images%20are%20properly%20aligned.PNG)<br/>
 Import Safari Service:<br/>
 ```Swift 
 import SafariServices
@@ -199,7 +199,7 @@ return }
     }
 ```
 Now all the visible news are clickable and will redirect us to its safari viewing page:<br/>
-[redirected to safari viewer.PNG](https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/redirected%20to%20safari%20viewer.png)
+[redirected to safari viewer.PNG](https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/testing-result-Handheld-Business-Watcher-News-App/redirected%20to%20safari%20viewer.PNG)
 
 # Debugging&Troubleshooting
 - ERROR: Title not showing in Xcode simulator. DEBUGGING: In `Main.storyboard`,
@@ -214,10 +214,14 @@ opaque = NO; autoresize = W; layer = <CALayer: 0x600002ab6f80>>
 delegate=0x7f7e5a00d400` DEBUGGING: iOS 16 incompatibility error. Try downloading Simulator packages <= iOS 15.5. 
  
  # Testing Results
- [news headlines fetched.PNG](https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/news%20headlines%20fetched.png)<br/>
- [news details and images are properly aligned.PNG](https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/news%20details%20and%20images%20are%20properly%20aligned.png)<br/>
- [redirected to safari viewer.PNG](https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/redirected%20to%20safari%20viewer.png)
+ <p align = "center">
+        <img src = "https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/testing-result-Handheld-Business-Watcher-News-App/news%20headlines%20fetched.PNG"  width = "380" height = "848.818181">&nbsp;
+        <img src = "https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/testing-result-Handheld-Business-Watcher-News-App/news%20details%20and%20images%20are%20properly%20aligned.PNG"  width = "380" height = "848.818181">&nbsp;
+        <img src = "https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/testing-result-Handheld-Business-Watcher-News-App/redirected%20to%20safari%20viewer.PNG" width = "380" height = "848.818181">
+</p>
 
+
+ 
 # Tags and Topics 
 api, swift, xcode, cgrect, safari-services, swoftui, swift5, newsapi-org, uikit. 
 # Author
