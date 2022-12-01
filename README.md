@@ -8,12 +8,12 @@ A neat-designed iOS Newsfeed application which contains richful most-recent news
 
 ## Handheld Business Watcher News App Overview:
 <p align = "center">
-        <img src = "https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/Handheld%20Business%20Watcher%20News%20App%20overview1.png" width = "401.8181" height ="839.090"/>&nbsp; 
-        <img src = "https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/Handheld%20Business%20Watcher%20News%20App%20overview2.png" width = "380" height ="841.8181"/> 
-        <img src = "https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/Handheld%20Business%20Watcher%20News%20App%20overview3.png" width = "380" height ="841.8181"/>&nbsp;
-        <img src = "https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/Handheld%20Business%20Watcher%20News%20App%20overview4.png" width = "380" height ="841.8181"/>
-        <img src = "https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/Handheld%20Business%20Watcher%20News%20App%20overview5.png" width = "380" height ="841.8181"/>&nbsp;
-        <img src ="https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/Handheld%20Business%20Watcher%20News%20App%20overview%206.png" width = "380" height ="841.8181"/>       
+        <img src = "https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/testing-result-Handheld-Business-Watcher-News-App/Handheld%20Business%20Watcher%20News%20App%20overview1.PNG" width = "401.8181" height ="839.090"/>&nbsp; 
+        <img src = "https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/testing-result-Handheld-Business-Watcher-News-App/Handheld%20Business%20Watcher%20News%20App%20overview2.PNG" width = "380" height ="841.8181"/> 
+        <img src = "https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/testing-result-Handheld-Business-Watcher-News-App/Handheld%20Business%20Watcher%20News%20App%20overview3.PNG" width = "380" height ="841.8181"/>&nbsp;
+        <img src = "https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/testing-result-Handheld-Business-Watcher-News-App/Handheld%20Business%20Watcher%20News%20App%20overview4.PNG" width = "380" height ="841.8181"/>
+        <img src = "https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/testing-result-Handheld-Business-Watcher-News-App/Handheld%20Business%20Watcher%20News%20App%20overview5.PNG" width = "380" height ="841.8181"/>&nbsp;
+        <img src ="https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/testing-result-Handheld-Business-Watcher-News-App/Handheld%20Business%20Watcher%20News%20App%20overview%206.PNG" width = "380" height ="841.8181"/>       
 </p> 
 
 # Build
@@ -52,9 +52,7 @@ Best testing simulator version to avoid errors: `iPhone12 Pro Max iOS 14.4`<br/>
 `Note: Xcode project renaming rule: change info.plist File in Build Settings.`<br/>
 <div>
         <img src ="https://github.com/devicons/devicon/blob/master/icons/xcode/xcode-plain.svg" title="Xcode" alt ="Xcode" width = "60" height= "60"/>&nbsp; 
-        <img src = "https://github.com/devicons/devicon/blob/master/icons/swift/swift-original.svg" title = "Swift 5" alt = "Swift 5" width = "60" height= "60"/>&nbsp; 
-        <img src = "https://github.com/KrystalZhang612/KrystalZhang-RepliFlix/blob/main/swift%20ui%20symbol%20logo.png" title = "SwiftUI" alt= "SwiftUI" width = "60" height= "60"/>&nbsp; 
-        <img src = "https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/news%20api%20logo.png" title = "NewsAPI" alt = "NewsAPI" width = "210" height = "60"/>&nbsp; 
+        <img src = "https://github.com/devicons/devicon/blob/master/icons/swift/swift-original.svg" title = "Swift 5" alt = "Swift 5" width = "60" height= "60"/>&nbsp;
 </div>
 
 # Prerequisites & Setups
