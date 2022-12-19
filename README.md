@@ -38,6 +38,7 @@ A neat-designed iOS Newsfeed application which contains richful most-recent news
 
 # Method to Run & Test the Project Locally
 ### Download the entire project to local directory
+### Replace `YOUR OWN API KEY` in [APICaller.swift]() with your own obtained API Key. 
 ### Xcode must be 13.4 and higher versions with all Xcode dependencies updated.
 ### Compatible with `iOS 10-iOS 15.5` 
 ### Not compatiable with `iOS 16+`
