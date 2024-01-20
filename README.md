@@ -38,7 +38,7 @@ A neat-designed iOS Newsfeed application which contains richful most-recent news
 
 # Method to Run & Test the Project Locally
 ### Download the entire project to local directory
-Create a new file named `APICaller.swift` in ``: 
+Create a new file named `APICaller.swift` in the root directory of the project`: 
 ```swift
 
 import Foundation
@@ -99,7 +99,7 @@ struct Source: Codable {
 }
 
 ```
-Replace `YOUR OWN API KEY` in [APICaller.swift](https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/Handheld-Business-Watcher-News-App/APICaller.swift) with your own obtained API Key. 
+Replace `YOUR OWN API KEY` with your own obtained API Key. 
 ### Xcode must be 13.4 and higher versions with all Xcode dependencies updated.
 ### Compatible with `iOS 10-iOS 15.5` 
 ### Not compatiable with `iOS 16+`
