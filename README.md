@@ -38,7 +38,68 @@ A neat-designed iOS Newsfeed application which contains richful most-recent news
 
 # Method to Run & Test the Project Locally
 ### Download the entire project to local directory
-### Replace `YOUR OWN API KEY` in [APICaller.swift](https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/Handheld-Business-Watcher-News-App/APICaller.swift) with your own obtained API Key. 
+Create a new file named `APICaller.swift` in ``: 
+```swift
+
+import Foundation
+
+final class APICaller {
+    static let shared = APICaller()
+    
+    struct Constants {
+        static let topHeadlinesURL = URL(string:
+            "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=YOUR OWN API KEY")
+    }
+    private init(){}
+    
+    public func getTopStories(completion: @escaping (Result<[Article], Error>) -> Void) {
+        guard let url = Constants.topHeadlinesURL else {
+            return
+        }
+        let task = URLSession.shared.dataTask(with: url) { data, _, error in
+            if let error = error{
+                completion(.failure(error))
+            }
+            else if let data = data {
+                do {
+                    let result = try JSONDecoder().decode(APIResponse.self, from: data)
+                    
+                    print("Articles: \(result.articles.count)")
+                    completion(.success(result.articles))
+                }
+                catch {
+                    completion(.failure(error))
+                }
+            }
+        }
+        task.resume()
+    }
+}
+
+//Models
+
+struct APIResponse: Codable {
+    let articles: [Article]
+    
+}
+
+struct Article: Codable {
+    let source: Source
+    let title: String
+    let description: String?
+    let url: String?
+    let urlToImage: String?
+    let publishedAt: String
+}
+
+struct Source: Codable {
+    
+    let name: String
+    
+}
+
+```
+Replace `YOUR OWN API KEY` in [APICaller.swift](https://github.com/KrystalZhang612/KrystalZhang-Handheld-Business-Watcher-News-App/blob/main/Handheld-Business-Watcher-News-App/APICaller.swift) with your own obtained API Key. 
 ### Xcode must be 13.4 and higher versions with all Xcode dependencies updated.
 ### Compatible with `iOS 10-iOS 15.5` 
 ### Not compatiable with `iOS 16+`
